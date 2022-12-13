@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width:100%;
+    background-image:url(login.jpg);
+    background-repeat: no-repeat;
+    height: 109vh;
+    background-size: cover;
+    background-position: center;
+}
+.form{
+    padding-top: 150px;
+    padding-left: 600px;
+    justify-content: center;
+    align-items: center;
+    width: 400px;  
+}
+.signup_form{
+    width:100%;
+    background-image:url(login.jpg);
+    background-repeat: no-repeat;
+    height: 109vh;
+    background-size: cover;
+    background-position: center;
+}
+.background{ 
+    
+    position: relative;
+    bottom: 140px;
+    padding-left: 500px;
+    width: 800px;
+    color: white;
+    min-height:500px;
+}
+.signup_here{
+    margin-left: 100px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    background-color: #ff7200;
+    border-radius: 10px;
+    border: 1px solid #ff7200;
+    color: white;
+    font-weight: bold;
+    
+}
+.area{
+    border: 5px solid #ff7200;
+    border-radius:15px;
+}
+.area tr{
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    line-height: 40px;
+    margin-left: 20px;
+}
+.area tr input{
+    padding: 10px 20px 0px;   
+}
+.signup_submit{
+    margin-left: 140px;
+    margin-bottom: 20pxS;
+    font-size: 30px;
+    background-color: #ff7200;
+    border-radius: 10px;
+    border: 1px solid #ff7200;
+    color: white;
+    font-weight: bold;
+}
+
+.btn{
+    border: 1px solid white;
+    padding: 10px;
+    width: 250px;
+    margin-bottom: 50px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 20px;
+    background-color:#ff7200;
+    border: 1px solid #ff7200;
+    color: white;
+}
+.input{
+    background:transparent;
+    border-bottom: 3px solid #ff7200;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    width: 300px;
+    line-height: 40px;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 30px;
+}
+.role{
+    width: 400px;
+    font-size: 30px;
+    color: white;
+}
+.role .select{
+    width: 210px;
+    padding-right: 50px;
+    padding-left: 30px;
+
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.submit{
+    margin-left: 60px;
+    margin-top: 40px;
+    background-color: #ff7200;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    border: 1px solid #ff7200;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    
+}
+.h3{
+    color: rgb(248, 203, 3);
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left: 10px;
+    
+}
+.h3 a{
+    text-decoration: none;
+    color:blue;
+    margin-left: 10px;
+}
+.student h1{
+    display:inline;
+    padding-left:600px;padding-right:300px;
+    color:white;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.student a{
+    font-size: 30px;
+    padding: 5px 20px  5px 20px;
+    border:2px #ff7200 solid;
+    border-radius:4px;
+    background-color:#ff7200;
+    text-decoration:none;
+    color: white;
+    text-align: center;
+    
+
+}
+.student{
+    background-color: rgb(4, 135, 158);
+    width: 100%;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+   
+    
+}
+.student_menu{
+   width: 290px;
+   height: 109vh;
+   background-color:  rgb(22, 133, 40);
+   
+    
+
+}
+.faculty_menu{
+    width: 290px;
+   height: 109vh;
+   background-color:  rgb(22, 133, 40);
+}
+.menu_middle {
+    width: 1058px;
+    height: 109vh;
+    background-color: rgb(24, 89, 110);
+    position: relative;
+    margin-left: 290px;
+    bottom: 717px;
+}
+.menu_middle form{
+    width: 300px;
+    height: 109vh;
+    margin-left: 300px;
+    position: relative;
+    top:400px;
+    left: 150px;
+    font-size: 30px;
+    color: white;
+    
+}
+.menu_middle form .s{
+    background-color: #ff7200;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid #ff7200;
+    margin-left: 50px;
+    border-radius: 10px;
+
+}
+.student_menu button{
+    float: left;
+    padding-left: 100px;
+    padding-right: 100px;
+    border:2px rgb(78, 5, 66) solid;
+    border-radius:4px;
+    position: relative;
+   margin: 0px;
+    background-color:rgb(78, 5, 66);
+    margin-top: 10px;
+    
+    
+}
+.student_menu a:hover{
+    background-color: white;
+    color: rgb(78, 5, 66);
+
+}
+.student_menu button a{
+    width: 80px;
+    height: 40px;
+    float: left;
+    font-size: 20px;
+    text-decoration:none;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.menu_middle .check_info{
+    width: 700px;
+    height: 109vh;
+    margin-left: 100px;
+    position: relative;
+    
+    left: 150px;
+    font-size: 30px;
+    color: white;
+    background-color: red;
+    
+}
+.menu_middle .student_edit{
+    width: 700px;
+    height: 109vh;
+    margin-left: 100px;
+    position: relative;
+    
+    left: 150px;
+    font-size: 30px;
+    color: white;
+    
+}
+.signup_form .signup_select{
+    border: 10px solid red;
+}
